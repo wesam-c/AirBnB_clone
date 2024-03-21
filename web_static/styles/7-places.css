@@ -1,24 +1,31 @@
 .places {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
 }
 
 .places h1 {
+    width: 100%;
     font-size: 30px;
     text-align: left;
 }
 
-.places article{
+article{
     width: 390px;
-    padding: 20px;
-    margin: 20px;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
     border: 1px solid #FF5A5F;
     border-radius: 4px;
+    position: relative;
+    z-index: -1;
 }
 
-.places article h2 {
+article h2 {
     font-size: 30px;
-    justify-content: center;
+    display: flex;
     text-align: center;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 10%
 }
