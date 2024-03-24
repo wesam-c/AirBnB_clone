@@ -81,7 +81,7 @@ article h2 {
     margin-left: 35px;
 }
 
-.guest_number h2{
+.guest_number p{
     font-size: 14px;
     color:  #484848;
     font-weight: normal;
@@ -101,7 +101,7 @@ article h2 {
     background-repeat: no-repeat;
     margin-left: 35px;
 }
-.rooms_number h2{
+.rooms_number p{
     font-size: 14px;
     color:  #484848;
     font-weight: normal;
@@ -121,7 +121,11 @@ article h2 {
     background-repeat: no-repeat;
     margin-left: 35px;
 }
-.bathrooms_number h2{
+.bathrooms_number p{
     font-size: 14px;
     color:  #484848;
     font-weight: normal;}
+
+.user {
+    margin: 10px auto;
+}
